@@ -1,0 +1,13 @@
+#contact {
+    background: var(--black);
+    padding-bottom: 3em;
+}
+
+h2 {
+    color: white;
+}
+
+.text-center button {
+    background-color: white;
+    color: var(--black);
+}

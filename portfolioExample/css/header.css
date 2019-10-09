@@ -1,0 +1,7 @@
+.jumbotron {
+    background: url(../assets/pexels-photo-mountain.jpeg) center bottom;
+    background-size: cover;
+    height: 100vh;
+    font-family: var(--font-four);
+
+}

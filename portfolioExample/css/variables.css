@@ -1,0 +1,23 @@
+:root {
+    --red: red;
+    --orange: orange;
+    --yellow: yellow;
+    --green: green;
+    --blue-green: aqua;
+    --blue: blue;
+    --purple: purple;
+    --brown: #6d6656;
+    --grey: #53565A;
+    --black: #272727;
+
+    --font-one: 'Jua', sans-serif;
+    --font-two: 'Raleway Dots', cursive;
+    --font-three: 'Amatic SC', cursive;
+    --font-four: 'vogue';
+}
+
+@font-face {
+    font-family: 'vogue';
+    src: url(../assets/Vogue.ttf);
+    font-weight: bolder;
+}

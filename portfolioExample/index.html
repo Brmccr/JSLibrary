@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Example Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link ref="text/css" rel="stylesheet" href="css/main.css">
+    <!-- <link ref="text/css" rel="stylesheet" href="css/header.css"> -->
+</head>
+
+<body>
+    <!---Nav Bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">BrMcCr</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Projects</a>
+                <a class="nav-item nav-link" href="#">About</a>
+                <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </div>
+        </div>
+    </nav>
+    <!--Jumbotron Fluid/Header-->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Brad McCracken</h1>
+            <p class="lead">Fullstack JavaScript Developer.</p>
+        </div>
+    </div>
+
+    <!---Projects-->
+    <section id="projects">
+        <h1 class="projectsTitle" style="text-align: center; font-size: 35px">Projects</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde aliquid neque
+                    molestias, deserunt culpa similique doloribus, optio quisquam temporibus, veniam laborum possimus
+                    adipisci. Perferendis unde quia quos quam, et beatae.
+
+                </div>
+                <div class="col-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias libero exercitationem
+                    recusandae aliquam delectus illum cumque. Molestias tempora perspiciatis omnis deserunt non suscipit
+                    a tempore. Hic sed repellendus soluta voluptatibus?
+
+                </div>
+                <div class="col-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit explicabo aut cum
+                    voluptates soluta labore! Harum itaque inventore voluptate facilis unde architecto voluptas, et at
+                    error magni iusto repudiandae cumque!
+                    <!---Utilizing the grid system- must total out to 12 between columns-->
+                </div>
+            </div>
+    </section>
+
+    <!---Contact Section-->
+    <section id="contact">
+        <div class="container">
+            <br>
+            <br>
+            <h2 class="text-center text-uppercase">Contact Me</h2>
+            <div class="row">
+                <div class="col-12">
+                    <form action="https://formspree.io/brmccr@gmail.com" method="POST">
+                        <div class="control-group">
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input type="text" class="form-control" placeholder="Your Name" id="name" required
+                                    data-validation-required-message="Please enter your name" name="name">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group">
+                                <label>Email Address</label>
+                                <input type="email" class="form-control" placeholder="Your Email" id="email" required
+                                    data-validation-required-message="Please enter your email" name="_replyto">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group">
+                                <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
+                                    data-validation-required-message="Please leave a message" name="message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <div id="success"></div>
+                            <button type="submit" class="btn btn-lg btn-black">
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Scripts-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
